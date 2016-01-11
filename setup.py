@@ -33,13 +33,13 @@ def get_long_description():
 
 
 setup(
-    name='django-pdb',
-    version=get_version('django_pdb'),
-    description='Easier pdb debugging for Django',
+    name='django-pudb',
+    version=get_version('django_pudb'),
+    description='Easier pudb debugging for Django. Fork of django-pdb by Tom Christie.',
     long_description=get_long_description(),
-    author='Tom Christie',
-    author_email='tom@tomchristie.com',
-    url='https://github.com/tomchristie/django-pdb',
+    author='Tristram Oaten and Tom Christie',
+    author_email='tris@blackgateresearch.com',
+    url='https://github.com/0atman/django-pudb',
     packages=('django_pdb',
               'django_pdb.management',
               'django_pdb.management.commands',
