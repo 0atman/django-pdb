@@ -1,10 +1,10 @@
 import sys
-import pdb
+import pudb as pdb
 
 from django import VERSION as DJANGO_VERSION
 
 from django_pdb.management import load_parent_command
-from django_pdb.middleware import PdbMiddleware
+from django_pdb.middleware import pudb as pdbMiddleware
 
 from optparse import make_option
 from django_pdb.utils import has_ipdb

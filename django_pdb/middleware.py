@@ -1,6 +1,6 @@
 import inspect
 import os
-import pdb
+import pudb as pdb
 import sys
 
 from django.conf import settings

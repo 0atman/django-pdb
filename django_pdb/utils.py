@@ -28,7 +28,7 @@ def get_def_colors():
     def_colors = 'Linux'
     import IPython
     if IPython.__version__ > '0.10.2':
-        from IPython.core.debugger import Pdb
+        from IPython.core.debugger import pudb as pdb
         try:
             get_ipython
         except NameError:
@@ -41,7 +41,7 @@ def get_def_colors():
             except AttributeError:
                 def_colors = get_ipython.__self__.colors
     else:
-        from IPython.Debugger import Pdb
+        from IPython.Debugger import pudb as pdb
         from IPython.Shell import IPShell
         from IPython import ipapi
         ip = ipapi.get()

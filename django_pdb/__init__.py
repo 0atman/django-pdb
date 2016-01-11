@@ -12,7 +12,7 @@ if DEBUG and POST_MORTEM == True:
         try:
             import ipdb
         except ImportError:
-            import pdb as ipdb
+            import pudb as pdb as ipdb
         p = ipdb
         print('Exception occured: {}, {}'.format(exc_type, exc_value), file=sys.stderr)
         p.post_mortem(tb)

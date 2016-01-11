@@ -1,4 +1,4 @@
-import pdb
+import pudb as pdb
 
 from django.test.utils import get_runner
 
