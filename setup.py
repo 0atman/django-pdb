@@ -34,7 +34,7 @@ def get_long_description():
 
 setup(
     name='django-pudb',
-    version=get_version('django_pudb'),
+    version=get_version('django_pdb'),
     description='Easier pudb debugging for Django. Fork of django-pdb by Tom Christie.',
     long_description=get_long_description(),
     author='Tristram Oaten and Tom Christie',
