@@ -1,7 +1,7 @@
 #!/usr/bin/env/python
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
+from distutils.core import setup
 import os
 import re
 
@@ -33,13 +33,13 @@ def get_long_description():
 
 
 setup(
-    name='django-pudb',
-    version=get_version('django_pdb'),
+    name='django-pdb-pudb',
+    version='0.0.1',
     description='Easier pudb debugging for Django. Fork of django-pdb by Tom Christie.',
     long_description=get_long_description(),
     author='Tristram Oaten and Tom Christie',
     author_email='tris@blackgateresearch.com',
-    url='https://github.com/0atman/django-pudb',
+    url='https://github.com/0atman/django-pdb-pudb',
     packages=('django_pdb',
               'django_pdb.management',
               'django_pdb.management.commands',
