@@ -1,3 +1,11 @@
+FORK!
+-----
+
+This is used in exactly the same way as the upstream fork, but it uses the MAGNIFICENT pudb library (https://github.com/inducer/pudb) to do postmortem.
+
+------------------
+
+
 **Status**: I no longer actively use this project, and am only accepting bugfixes and django compatibility pull requests.
 
 Django PDB
